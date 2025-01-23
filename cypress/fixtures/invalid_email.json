@@ -1,0 +1,8 @@
+[
+    { "email": "invalidemail", "expectedErrorMessage": "Error: The email address is badly formatted." },
+    { "email": "@invalid.com", "expectedErrorMessage": "Error: The email address is badly formatted." },
+    { "email": "invalid@com", "expectedErrorMessage": "Error: There is no user record corresponding to this identifier. The user may have been deleted." },
+    { "email": "invalid@.com", "expectedErrorMessage": "Error: The email address is badly formatted." },
+    { "email": "invalid@com.", "expectedErrorMessage": "Error: The email address is badly formatted." }
+  ]
+  
