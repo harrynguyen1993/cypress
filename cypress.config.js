@@ -9,6 +9,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
+  
   viewportWidth: 1250,
   viewportHeight: 720,
   reporter: 'mochawesome', // Use Mochawesome as the reporter
